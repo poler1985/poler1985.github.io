@@ -1,0 +1,259 @@
+/**********************************************/
+/*normalize css for all browsers, reset values*/
+/**********************************************/
+* {
+	padding:0;
+	margin: 0;
+}
+
+html, body {
+	margin: 0;	
+	padding: 0;	
+	height: 100%;
+	width: 100%; 
+}
+/**********************************************/
+
+#main {
+
+	background-image: url("../images/canvas.jpg");
+    background-repeat: repeat;
+	padding:1%;
+	
+}
+
+.box {
+	width: 280px;
+ 	height: 380px;
+ 	background-image: url("../images/key1.png");
+ 	background-repeat: no-repeat;
+ 	margin: 0 auto;
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+}
+
+.box1 {
+	width: 60%;
+ 	height: 25em;
+ 	margin: 0 auto;
+ 	padding-left: 15px;
+ 	padding-right: 15px;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	font-family: 'Cabin', sans-serif;
+ 	font-size: 30px;
+}
+
+
+.box2 {
+	width: 60%;
+ 	height: 25em;
+ 	margin: 0 auto;
+ 	padding-left: 2%;
+ 	padding-right: 2%;
+ 	padding-top: 5%;
+ 	
+ 	font-family: 'Cabin', sans-serif;
+ 	font-size: 2.5em;
+
+}
+
+.box3 {
+	width: 60%;
+ 	height: 25em;
+ 	margin: 0 auto;
+ 	padding-left: 20%;
+ 	padding-right: 2%;
+ 	padding-top: 4%;
+ 	padding-bottom: 15px;
+ 	font-family: 'Cabin', sans-serif;
+ 	font-size: 2.5em;
+ 	color: hsla(25, 40%, 26%, 1);
+ 	
+
+}
+
+p.name {
+	text-align: center;
+	color: hsla(25, 40%, 26%, 1);
+	font-family: 'Cabin', sans-serif;
+	margin-top: 38px;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+	display: block;
+
+
+}
+
+a:hover {
+   
+    text-decoration: none;
+    color: hsla(30, 33%, 71%, 1);
+    text-decoration: underline;
+}
+
+
+
+#firstName {
+	background-color: white;
+	border: solid hsla(30, 33%, 71%, 1);
+	width: 90%;
+	height: 35px;
+	margin-left: 5%;
+	border-radius:12px;
+	font-size: 20px;
+
+	
+}
+
+#firstName1 {
+	background-color: white;
+	border: solid hsla(30, 33%, 71%, 1);
+	width: 90%;
+	height: 35px;
+	margin-left: 5%;
+	border-radius:12px;
+	font-size: 20px;
+	
+}
+
+#radio {
+	width: 3em;
+	height: 2em;
+	border-radius: 12px;
+
+}
+
+#submitButton{
+	
+	margin-left: 22%;
+	width: 60%;
+	height: 42px;
+	border-radius: 12px;
+	border: 2px solid hsla(30, 33%, 71%, 1);
+	background-color: hsla(30, 33%, 71%, 1);
+	color: white;
+	font-size: 16px;
+	border: solid hsla(30, 33%, 71%, 1);
+	text-decoration: none;
+	display: block;
+}
+
+#submitButton1 {
+	width: 20%;
+	height: 30px;
+	font-size: 15px;
+	color: hsla(30, 33%, 71%, 1);
+	background-color: hsla(25, 40%, 26%, 1);
+	border-radius: 20px;
+	border: 2px solid hsla(25, 40%, 26%, 1);
+	
+}
+
+#textBox {
+	width: 40%;
+	height: 30px;
+	font-size: 15px;
+	background-color: white;
+	border: solid 4px hsla(30, 33%, 71%, 1);
+	/*border: solid 2px hsla(30, 33%, 71%, 1);*/
+}
+
+#submitButton:hover {
+   
+	background-color: white;
+	color: hsla(30, 33%, 71%, 1);
+	cursor:pointer;
+	text-decoration: none;
+	
+}
+
+#wrapper {
+	width: 60%;
+	height: 60%;
+	margin-left:5%;
+	
+
+}
+
+#wrapper p {
+	margin-left: 5%;
+
+}
+
+.wrapper1 {
+
+	width: 90%;
+	height: 50%;
+	margin-right: 80%;
+	background-color:hsla(30, 33%, 71%, 1); 
+	/*border: solid 2px black;*/
+	border-radius:32px;
+	font-size: 20px;
+	padding-top: 10%;
+	padding-left: 2%;
+	border: solid 4px hsla(25, 40%, 26%, 1);
+	/*background-image: url("../images/tv.png");*/
+	/*background-size: cover;
+	background-position: center center;*/
+
+}
+
+#display{
+	width: 68%;
+	height: 82%;
+	margin: 0 auto;
+	margin-left: 14%;
+	border: solid 4px hsla(25, 40%, 26%, 1);
+	background-image: url("../images/static.png");
+	background-size: cover;
+	background-position: center center;
+	/*margin-top: 5.5%;*/
+	/*background-size: 100%;
+	background-position: center;*/
+	border-radius: 50px;
+	background-color: black;
+	/*background-repeat: no-repeat;*/
+
+}
+
+.style{
+	width: 90%;
+	height: 10%;
+	padding-left: 15%; 
+
+}
+
+.heart{
+	width:8%;
+	height: 17%;
+	position: absolute;
+	background-image: url("../images/heart.png");
+	background-size: cover;
+	background-position: center center;
+	margin-left: 44.5%;
+	margin-top: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
